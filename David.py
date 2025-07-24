@@ -687,17 +687,17 @@ def main():
 def __Old1__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '100000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=30) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mTOTAL \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mTOTAL \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
         linex()
         for mal in user:
         	uid=year_code+mal
@@ -706,62 +706,62 @@ def __Old1__():
 def __Old1__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=30) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login2,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def __Old2__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=30) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login3,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def __Old3__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶\033[1;97m 10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶\033[1;97m 10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=30) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login4,uid)            
-    line();print(f'\r\33[38;5;160m[\033[1;97m👍🏻\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97m♨️\33[38;5;160m] \033[1;97mYOUR CRACKED HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mINTER TO BACK RAN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def login1(uid):
     global oks,loop,cps
